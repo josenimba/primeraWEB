@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header >
+        
+        <nav id="navigator" class="flex-container">
+
+            <ul class="flex-container flex2" id="menu">
+                <li><a href="portada.html"><img src="imagenes/monito.png" alt="logo" id="logo"></a></li>
+                <li><a href="portada.html">Inicio</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacte.html">Contacto</a></li>
+            </ul>
+
+            <div id="contbuscador2" class="flex1">
+                <input type="search" placeholder="Buscar.." id="buscador"/>
+            </div>
+
+            <div class="breadcrumb flex1" id="migas">
+                <a href="portada.html">Inicio</a>
+                <span>/</span>
+                <a href="contacte.html">Contacto</a>
+                <span></span>
+            </div>
+
+            <div class="flex-container" id="logeada">
+                
+                <a class="flex-container flex1" href="login.html">LogIn
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                </a>  
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+        <h1 class="centrado">Contacto y sugerencias</h1>
+        <div id="contacto" class="flex-container">
+            
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.6611274659326!2d2.0555170760681087!3d41.55493397127901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a493650ae03931%3A0xee4ac6c8e8372532!2sCIFO%20Sabadell-Terrassa!5e0!3m2!1ses!2ses!4v1701425653395!5m2!1ses!2ses" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+
+            <fieldset id="fscontacto">
+                <legend>Contacto</legend>   
+                      <label>Nombre</label>   
+                      <input type="text" name="nombre">
+                      <br>
+                      <label>Tu Correo:</label>
+                      <input type="email" name="correo">
+                  <br>
+                  <label>Sugerencias:</label>
+                      <textarea name="sugerencias" placeholder="Sin sugerencias"></textarea>
+                  <br>
+                  <input id="btnRegistro" type="submit" name="login" value="Envia">
+              </fieldset>
+        </div>
+
+    </main>
+
+    <footer id="footer">
+        <div class="mapaweb flex-container">
+            <div class="listalinksleft flex1">
+                <p>Cónocenos</p>
+                <ul>
+                    <li>Privacidad y Aviso Legal</li>
+                    <li>Politica de cookies</li>
+                    <li>10 razones para elegirme</li>
+                    <li>Opinion Clientes</li>
+                </ul>
+            </div>
+            <div class="listalinkscenter flex1">
+                <p>Mapa Web</p>
+                <ul>
+                    <li><a href="registre.html">Registro</a></li>
+                    <li><a href="login.html">LogIn</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contacte.html">Contacto y Ubicación</a></li>
+                </ul>
+            </div>
+            <div class="listalinksright flex1">
+                <p>¿Necesitas ayuda?</p>
+                <ul>
+                    <li>¿Que ofrecemos?</li>
+                    <li>Garantias y devoluciones</li>
+                    <li>Soporte Técinco</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <p id="copyright">© 2024 Jose Ivan Gutierrez, Inc.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/galeria.js"></script>
+    <script src="js/galeriavideo.js"></script>
+</head>
+<body>
+    
+    <header >
+        <nav id="navigator" class="flex-container">
+
+            <ul class="flex-container flex2" id="menu">
+                <li><a href="portada.html"><img src="imagenes/monito.png" alt="logo" id="logo"></a></li>
+                <li><a href="portada.html">Inicio</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacte.html">Contacto</a></li>
+            </ul>
+
+            <div id="contbuscador2" class="flex1">
+                <input type="search" placeholder="Buscar.." id="buscador"/>
+            </div>  
+
+            <div class="breadcrumb flex1" id="migas">
+                <a href="portada.html">Inicio</a>
+                <span>/</span>
+                <a href="galeria.html">Galeria</a>
+                <span></span>
+            </div>
+
+            <div class="flex-container" id="logeada">
+                
+                <a class="flex-container flex1" href="login.html">LogIn
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                    </svg>
+                </a>  
+            </div>
+        </nav>
+                
+    </header>
+
+    <main>
+        <h2 class="centrado" id="titulogaleria">Fotografías de la galería</h2>
+        <section id="galeria">
+            <figure><img src="imagenes/grafica1.webp" alt="grafica1"   data-detalles="4090 ROG STRIX GAMING"></figure>
+            <figure><img src="imagenes/grafica2.webp" alt="grafica2"   data-detalles="4090 XTREME"></figure>
+            <figure><img src="imagenes/pcgaming1.webp" alt="pcgaming1" data-detalles="INTEL I7, RTX 3080, 32gb RAM, 1TB"></figure>
+            <figure><img src="imagenes/pcgaming2.webp" alt="pcgaming2" data-detalles="AMD RYZEN7, RTX 4060, 16gb RAM, 1TB"></figure>
+            <figure><img src="imagenes/pcgaming3.webp" alt="pcgaming3" data-detalles="AMD RYZEN9, RTX 4090, 32gb RAM, 1TB"></figure>
+            <figure><img src="imagenes/pcgaming4.webp" alt="pcgaming4" data-detalles="AMD RYZEN7, RTX 4070 SUPER, 32gb RAM, 1TB"></figure>
+            <figure><img src="imagenes/pcgaming5.webp" alt="pcgaming5" data-detalles="INTEL I9, RTX 4070 SUPER, 32gb RAM, 1TB"></figure>
+            <figure><img src="imagenes/pcgaming6.webp" alt="pcgaming6" data-detalles="INTEL I9, RTX 4090, 32gb RAM, 1TB"></figure>
+        </section>
+        <br>
+
+        <h2 class="centrado">Galeria de Videos</h2>
+        <section id="videogaleria">
+            <video src="videos/video1.mp4" id="video" width="400" height="250" autoplay muted controls></video>
+            <br>
+            <output id="info">Reproduciendo: videos/video1.mp4</output>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div id="socialFooter">
+            <h3>Social Media</h3>
+            <a href="https://github.com/josenimba" target="_blank">
+                <img alt="Thumbnail for version as of 09:24, 17 June 2014" src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/9/91/20180806170714%21Octicons-mark-github.svg/120px-Octicons-mark-github.svg.png" decoding="async" loading="lazy" width="40" height="40" data-file-width="1024" data-file-height="1024">        
+            </a>      
+                <img alt="File:Instagram.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/512px-Instagram.svg.png" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/768px-Instagram.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/1024px-Instagram.svg.png 2x" data-file-width="32" data-file-height="32">
+                
+                <img alt="File:Facebook f logo (2021).svg" src="//upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/512px-Facebook_f_logo_%282021%29.svg.png?20210818083032" decoding="async" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/768px-Facebook_f_logo_%282021%29.svg.png?20210818083032 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1024px-Facebook_f_logo_%282021%29.svg.png?20210818083032 2x" data-file-width="512" data-file-height="512">
+        </div>
+        <div class="mapaweb flex-container">
+            <div class="listalinksleft flex1">
+                <p>Cónocenos</p>
+                <ul>
+                    <li>Privacidad y Aviso Legal</li>
+                    <li>Politica de cookies</li>
+                    <li>10 razones para elegirme</li>
+                    <li>Opinion Clientes</li>
+                </ul>
+            </div>
+            <div class="listalinkscenter flex1">
+                <p>Mapa Web</p>
+                <ul>
+                    <li><a href="registre.html">Registro</a></li>
+                    <li><a href="login.html">LogIn</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contacte.html">Contacto y Ubicación</a></li>
+                </ul>
+            </div>
+            <div class="listalinksright flex1">
+                <p>¿Necesitas ayuda?</p>
+                <ul>
+                    <li>¿Que ofrecemos?</li>
+                    <li>Garantias y devoluciones</li>
+                    <li>Soporte Técinco</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <p id="copyright">© 2024 Jose Ivan Gutierrez, Inc.</p>
+    </footer>
+</body>
+</html>
